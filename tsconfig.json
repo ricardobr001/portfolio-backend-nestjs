@@ -10,6 +10,20 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@core": ["src/core"],
+      "@core/*": ["src/core/*"],
+      "@controller": ["src/http/controller"],
+      "@controller/*": ["src/http/controller/*"],
+      "@domain": ["src/domain"],
+      "@domain/*": ["src/domain/*"],
+      "@infrastructure": ["src/infrastructure"],
+      "@infrastructure/*": ["src/infrastructure/*"],
+      "@response": ["src/http/response"],
+      "@response/*": ["src/http/response/*"],
+      "@useCase": ["src/useCase"],
+      "@useCase/*": ["src/useCase/*"]
+    }
   }
 }
