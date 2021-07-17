@@ -24,6 +24,8 @@
       "@response/*": ["src/http/response/*"],
       "@utils": ["src/utils"],
       "@utils/*": ["src/utils/*"],
+      "@utilsTest": ["src/utilsTest"],
+      "@utilsTest/*": ["src/utilsTest/*"],
       "@useCase": ["src/useCase"],
       "@useCase/*": ["src/useCase/*"]
     }

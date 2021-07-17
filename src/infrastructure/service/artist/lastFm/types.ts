@@ -34,7 +34,7 @@ export interface LastFmTopArtistResponse {
   topartists: TopArtist
 }
 
-export class LastFmArtist {
+export interface LastFmArtist {
   mbid: string
   playcount: number
   name: string
