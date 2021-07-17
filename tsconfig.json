@@ -22,6 +22,8 @@
       "@infrastructure/*": ["src/infrastructure/*"],
       "@response": ["src/http/response"],
       "@response/*": ["src/http/response/*"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"],
       "@useCase": ["src/useCase"],
       "@useCase/*": ["src/useCase/*"]
     }

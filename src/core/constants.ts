@@ -6,3 +6,5 @@ export const GENIUS_URL = 'https://api.genius.com'
 export const FANART_TV_URL = 'https://webservice.fanart.tv/v3/music'
 
 export const LAST_FM_ARTIST_LIMIT = 15
+
+export const IMAGE_NOT_FOUND = 'assets/img/rockbandnotfound.png'
