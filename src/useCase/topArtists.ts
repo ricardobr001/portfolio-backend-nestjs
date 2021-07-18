@@ -74,7 +74,7 @@ export class TopArtists {
       const index = fanArtImagesArr.findIndex(fanArtImage => artist.mbid === fanArtImage.mbid)
 
       if (index === INDEX_NOT_FOUND) {
-        return artist
+        return { ...artist, image: IMAGE_NOT_FOUND }
       }
 
       const { image } = fanArtImagesArr[index]
