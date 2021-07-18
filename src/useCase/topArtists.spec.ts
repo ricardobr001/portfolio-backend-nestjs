@@ -113,7 +113,6 @@ describe('useCase-topArtist', () => {
     it('should return image not found when mbid founded is from a different artist', async () => {
       const lastReturnValue: LastFmArtist[] = [generateLastFmArtistWithoutMBID()]
       const imageUrl = 'assets/img/rockbandnotfound.png'
-      // const mbidMusicBrainzReturned = faker.datatype.uuid()
 
       const artistMusicBrainz: ArtistMusicBrainz[] = [
         {
