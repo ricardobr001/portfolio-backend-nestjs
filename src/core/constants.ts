@@ -8,3 +8,5 @@ export const FANART_TV_URL = 'https://webservice.fanart.tv/v3/music'
 export const LAST_FM_ARTIST_LIMIT = 15
 
 export const IMAGE_NOT_FOUND = 'assets/img/rockbandnotfound.png'
+export const EMPTY_MBID = ''
+export const INDEX_NOT_FOUND = -1

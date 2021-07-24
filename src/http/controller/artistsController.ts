@@ -1,11 +1,11 @@
 import { Artist } from '@domain/entity/artist'
 import { Controller, Get } from '@nestjs/common'
 import { ApiOkResponse, ApiOperation } from '@nestjs/swagger'
-import { TopArtists } from '@useCase/topArtists'
+import { TopArtistsUseCase } from '@useCase/topArtists/topArtistsUseCase'
 
 @Controller('v1/artist')
 export class ArtistsController {
-  constructor(private readonly topArtistsUseCase: TopArtists) {}
+  constructor(private readonly topArtistsUseCase: TopArtistsUseCase) {}
 
   @Get()
   @ApiOperation({
